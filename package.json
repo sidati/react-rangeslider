@@ -1,0 +1,58 @@
+{
+  "name": "react-rangeslider",
+  "version": "1.0.0",
+  "description": "A fast & lightweight react rangeslider component",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -w -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidati/react-rangeslider.git"
+  },
+  "keywords": [
+    "range",
+    "slider",
+    "react",
+    "component"
+  ],
+  "author": "sidati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidati/react-rangeslider/issues"
+  },
+  "homepage": "https://github.com/sidati/react-rangeslider#readme",
+  "peerDependencies": {
+    "react": "^16.14.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.12.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "@rollup/plugin-replace": "^2.4.1",
+    "@types/lodash": "^4.14.168",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "esbuild": "^0.10.1",
+    "prettier": "^2.2.1",
+    "react-dom": "^16.14.0",
+    "rollup": "^2.42.4",
+    "rollup-plugin-dts": "^3.0.1",
+    "rollup-plugin-esbuild": "^3.0.2",
+    "rollup-plugin-typescript": "^1.0.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "react": "^16.14.0"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "singleQuote": true
+  }
+}
